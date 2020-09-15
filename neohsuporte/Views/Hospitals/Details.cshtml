@@ -1,0 +1,54 @@
+﻿@model neohsuporte.Models.Hospital
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Hospital</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CnpjHospital)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CnpjHospital)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmHospital)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmHospital)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HospitalGrupo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HospitalGrupo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SnAtivo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SnAtivo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoSistema)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TipoSistema)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
