@@ -77,7 +77,7 @@ namespace neohsuporte
             {
                 routes.MapRoute(
                     name: "Hospital",
-                    template: "{controller=Cadastro}/{action=Hospitals}/{id?}");
+                    template: "{controller=Hospitals}/{action=Index}/{id?}");
             });
 
             app.UseMvc(routes =>
@@ -85,6 +85,13 @@ namespace neohsuporte
                 routes.MapRoute(
                     name: "Tutorial",
                     template: "{controller=Tutorial}/{action=Medico}/{id?}");
+            });
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "Usuario",
+                    template: "{controller=Usuarios}/{action=Index}/{id?}");
             });
         }
     }

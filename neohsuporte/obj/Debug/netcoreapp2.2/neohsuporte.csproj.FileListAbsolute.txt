@@ -43,3 +43,8 @@ C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug
 C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug\netcoreapp2.2\Razor\Views\Tutorial\Agendador.cshtml.g.cs
 C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug\netcoreapp2.2\Razor\Views\Tutorial\Gestor.cshtml.g.cs
 C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug\netcoreapp2.2\Razor\Views\Tutorial\Administrador.cshtml.g.cs
+C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug\netcoreapp2.2\Razor\Views\Usuarios\Create.cshtml.g.cs
+C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug\netcoreapp2.2\Razor\Views\Usuarios\Delete.cshtml.g.cs
+C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug\netcoreapp2.2\Razor\Views\Usuarios\Details.cshtml.g.cs
+C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug\netcoreapp2.2\Razor\Views\Usuarios\Edit.cshtml.g.cs
+C:\Users\joann\OneDrive\Área de Trabalho\neoh\neohsuporte\neohsuporte\obj\Debug\netcoreapp2.2\Razor\Views\Usuarios\Index.cshtml.g.cs
