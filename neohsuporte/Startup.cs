@@ -72,6 +72,20 @@ namespace neohsuporte
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "Hospital",
+                    template: "{controller=Cadastro}/{action=Hospitals}/{id?}");
+            });
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "Tutorial",
+                    template: "{controller=Tutorial}/{action=Medico}/{id?}");
+            });
         }
     }
 }

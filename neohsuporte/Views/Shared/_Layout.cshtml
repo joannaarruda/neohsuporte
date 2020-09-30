@@ -45,25 +45,24 @@
           font-size: 16px;
           border:none;
           outline: none;
-          color:aqua;
-          padding: 14px 16px;
-          background-color:black;
+          color:black;
+          background-color:ghostwhite;
           font-family:inherit;
           margin:0;
       }
       .mynav_navbar a:hover, .mynav_dropdown:hover .mynav_dropbtn {
-          background-color:black;
+          background-color:white;
       }
       .mynav_dropdown-content {
           display:none;
           position:absolute;
-          background-color:black;
+          background-color:darkorange;
           
       }
 
       .mynav_dropdown a{
           float:none;
-          color:azure;
+          color:white;
           padding:12px 16px;
           text-decoration:none;
           display:block;
@@ -71,7 +70,7 @@
       }
 
       .mynav_dropdown-content a:hover{
-          background-color:azure;
+          background-color:black;
       }
 
       .mynav_dropdown:hover .mynav_dropdown-content{
@@ -97,22 +96,38 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style=" font-size: 16px; border: none; outline: none; color: black;  background-color: ghostwhite; font-family: inherit; margin: 0;">
+                            
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Hospitals" asp-action="Index">Hospitals</a>
-                        </li>
+
                         <li class="mynav_navbar">
-                            
+
+                            <div class="mynav_dropdown">
+                                <button class="mynav_dropbtn">
+                                    Cadastros
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="mynav_dropdown-content">
+                               
+                                    <a asp-controller="Hospitals" asp-action="Index">Hospital</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mynav_navbar">
+
                             <div class="mynav_dropdown">
                                 <button class="mynav_dropbtn">
                                     Tutoriais
                                     <i class="fa fa-caret-down"></i>
                                 </button>
                                 <div class="mynav_dropdown-content">
-                                    <a href="a">Médico</a>
-                                    <a href="a">Agendador</a>
+
+                                    <a asp-controller="Tutorial" asp-action="Medico">Médico</a>
+                                    <a asp-controller="Tutorial" asp-action="Agendador">Agendador</a>
+                                    <a asp-controller="Tutorial" asp-action="Gestor">Gestor</a>
+                                    <a asp-controller="Tutorial" asp-action="Administrador">Administrador</a>
                                 </div>
                             </div>
                         </li>
